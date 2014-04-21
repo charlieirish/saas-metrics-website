@@ -25,10 +25,6 @@ on_stylesheet_saved do |file|
   css = File.read(file)
   processed = AutoprefixerRails.process(css, browsers: ["last 2 versions", "> 1%", "ie >= 9"]).css
 
-  #File.open(File.dirname(__FILE__) + '/../../public/stylesheets/screen.css', 'w') do |io|
-  #  io << processed
-  #end
-
   File.open(file, 'w') do |io|
     io << processed
   end

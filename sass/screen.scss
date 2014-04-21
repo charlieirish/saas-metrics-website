@@ -9,6 +9,7 @@
 }
 
 header[role="banner"] {
+  padding: rem(15px 0 12px 0);
   background: #374151;
   text-align: center;
 }
@@ -20,9 +21,20 @@ header[role="banner"] {
   span {
     color: #3bafda;
   }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    margin-right: rem(20px);
+    background: inline-image('logo.png') 0 0 / 22px 22px no-repeat;
+    width: 22px;
+    height: 22px;
+    vertical-align: -3px;
+  }
 }
 
 .sub-header {
+  position: relative;
   overflow: hidden;
   padding-top: rem(55px);
   background: #384352;
@@ -30,6 +42,17 @@ header[role="banner"] {
   color: #9fb7c5;
   box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, 0.2) inset;
   text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 -20px 20px -20px rgba(0, 0, 0, 0.2) inset;
+    z-index: 2;
+  }
 
   .tagline {
     margin-bottom: 0;
@@ -159,7 +182,7 @@ header[role="banner"] {
       background-size: rem(12px 16px);
       width: 12px;
       height: 16px;
-      vertical-align: -2px;
+      vertical-align: -3px;
     }
   }
 }
@@ -176,12 +199,20 @@ header[role="banner"] {
   margin-bottom: rem(42px);
 }
 
-.slim {
-  @include squish(2, 2);
+@media (min-width: 30em) {
+  .slim, .micro-slim {
+    @include squish(1, 1);
+  }
 }
 
-.micro-slim {
-  @include squish(1, 1);
+@media (min-width: 60em) {
+  .slim {
+    @include squish(2, 2);
+  }
+
+  .micro-slim {
+    @include squish(1, 1);
+  }
 }
 
 #why-us, #our-solution, #metrics {
@@ -288,7 +319,7 @@ header[role="banner"] {
 }
 
 #our-solution {
-  padding-top: rem(90px);
+  padding-top: rem(80px);
   background: #384352;
   color: #9fb7c5;
 
@@ -304,6 +335,11 @@ header[role="banner"] {
 
   .title {
     color: #ffffff;
+
+    @media (min-width: 60em) {
+      padding-left: rem(150px);
+      padding-right: rem(150px);
+    }
   }
 
   strong {
@@ -312,14 +348,19 @@ header[role="banner"] {
 }
 
 .are-you-ready {
-  padding: rem(80px 0 60px 0);
+  padding: rem(72px 0 50px 0);
   background: #cbd4db;
   text-align: center;
   font-size: rem(20px);
   font-weight: bold;
 
   p {
+    margin: rem(0 0 6px 0);
     color: #7c899d;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   strong {
@@ -328,7 +369,7 @@ header[role="banner"] {
 }
 
 #metrics {
-  padding-top: rem(90px);
+  padding-top: rem(80px);
   color: #859aa7;
 
   &::after {
@@ -343,6 +384,15 @@ header[role="banner"] {
 
   .title {
     color: #354050;
+
+    @media (min-width: 60em) {
+      padding-left: rem(190px);
+      padding-right: rem(190px);
+    }
+  }
+
+  ul {
+    margin-top: rem(70px);
   }
 
   @media (min-width: 60em) {

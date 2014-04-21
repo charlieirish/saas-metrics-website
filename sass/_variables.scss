@@ -1,0 +1,12 @@
+$base-font-size: 17px;
+$base-line-height: 28px;
+$base-font-family: 'proxima-nova', 'helvetica neue', 'arial', 'sans-serif';
+$rhythm-unit: 'rem';
+
+$susy: (
+  columns: 12,
+  gutter-position: inside,
+  math: fluid,
+  output: float,
+  flow: rtl,
+);

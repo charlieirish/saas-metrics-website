@@ -1,0 +1,639 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 29, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 40, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 47, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_html5.scss */
+[hidden],
+template {
+  display: none; }
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 19, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_base.scss */
+body {
+  margin: 0; }
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_links.scss */
+a {
+  background: transparent; }
+
+/* line 15, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 15, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 22, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+dfn {
+  font-style: italic; }
+
+/* line 29, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 36, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 43, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+small {
+  font-size: 80%; }
+
+/* line 49, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 57, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+sup {
+  top: -0.5em; }
+
+/* line 61, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_typography.scss */
+sub {
+  bottom: -0.25em; }
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_embeds.scss */
+img {
+  border: 0; }
+
+/* line 15, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_groups.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 15, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 23, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_groups.scss */
+pre {
+  overflow: auto; }
+
+/* line 29, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 27, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button {
+  overflow: visible; }
+
+/* line 36, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 47, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 57, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 64, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 73, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+input {
+  line-height: normal; }
+
+/* line 83, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 93, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 102, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 113, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 120, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 129, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 136, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+textarea {
+  overflow: auto; }
+
+/* line 143, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_forms.scss */
+optgroup {
+  font-weight: bold; }
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 14, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Compass Normalize/normalize/_tables.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 3, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_main.scss */
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/**
+ * Font
+ */
+/* line 106, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 106.25%;
+  line-height: 1.64706em; }
+
+/* line 30, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 36, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+html {
+  font-family: "proxima-nova", "helvetica neue", "arial", "sans-serif";
+  font-weight: 400; }
+
+/* line 41, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  cursor: pointer; }
+  /* line 6, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_unstyled-link.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/**
+ * Standard headers
+ */
+/* line 50, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h1, .h1-like {
+  font-size: 36px;
+  font-size: 2.11765rem;
+  line-height: 56px;
+  line-height: 3.29412rem; }
+
+/* line 54, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h2, .h2-like {
+  font-size: 30px;
+  font-size: 1.76471rem;
+  line-height: 56px;
+  line-height: 3.29412rem; }
+
+/* line 58, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h3, .h3-like {
+  font-size: 24px;
+  font-size: 1.41176rem;
+  line-height: 28px;
+  line-height: 1.64706rem; }
+
+/* line 62, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h4, .h4-like {
+  font-size: 20px;
+  font-size: 1.17647rem;
+  line-height: 28px;
+  line-height: 1.64706rem; }
+
+/* line 66, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h5, .h5-like {
+  font-size: 16px;
+  font-size: 0.94118rem;
+  line-height: 28px;
+  line-height: 1.64706rem; }
+
+/* line 70, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+h6, .h6-like {
+  font-size: 14px;
+  font-size: 0.82353rem;
+  line-height: 28px;
+  line-height: 1.64706rem; }
+
+/**
+ * Avoid top margins on first elements and bottom margin and last elements
+ */
+/* line 78, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+p:first-child, ul:first-child, ol:first-child, dl:first-child, blockquote:first-child,
+pre:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child,
+h5:first-child, h6:first-child {
+  margin-top: 0; }
+
+/* line 84, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_typography.scss */
+p:last-child, ul:last-child, ol:last-child, dl:last-child, blockquote:last-child,
+pre:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child,
+h5:last-child, h6:last-child {
+  margin-bottom: 0; }
+
+/**
+ * Useful functions to convert between px to em or rem
+ */
+/**
+ * Output according to the rhythm unit
+ */
+/**
+ * Standard styling (labels on top)
+ */
+/* line 37, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+.form-control {
+  position: relative;
+  margin-bottom: 1.17647rem; }
+  /* line 41, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+  .form-control:last-child {
+    margin-bottom: 0; }
+  /* line 45, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+  .form-control > label {
+    display: block;
+    margin: 0 0 0.58824rem 0;
+    font-weight: 600;
+    font-size: 17px;
+    color: black; }
+
+/* line 54, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+input {
+  font-size: 17px; }
+  /* line 57, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+  input[type="checkbox"], input[type="radio"] {
+    width: 1em !important;
+    height: 1em !important;
+    margin-right: 0.58824rem; }
+  /* line 63, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+  input[type="submit"], input[type="reset"] {
+    width: auto; }
+
+/* line 68, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+textarea {
+  display: block; }
+
+/* line 72, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+input:focus, textarea:focus {
+  outline: none; }
+
+/* line 76, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+input[type="email"], input[type="number"], input[type="password"], input[type="search"],
+input[type="tel"], input[type="text"], input[type="url"], textarea {
+  width: 100%;
+  padding: 0.29412rem 0.58824rem;
+  border: 1px solid #dddddd;
+  border-radius: 0.17647rem;
+  color: black;
+  -webkit-appearance: none;
+  /* Remove the inner box-shadow in iOS devices */ }
+  /* line 85, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus,
+  input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, textarea:focus {
+    border: 1px solid #8dc7f0;
+    color: #2485c6; }
+
+/* line 91, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+::-webkit-input-placeholder {
+  color: #757575; }
+
+/* line 95, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+::-moz-placeholder {
+  color: #757575; }
+
+/* line 99, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+:-ms-input-placeholder {
+  color: #757575; }
+
+/* line 103, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_forms.scss */
+.input-collection {
+  display: flex;
+  justify-content: space-between; }
+
+/**
+ * Fake select (for jQuery FakeSelect plugin)
+ */
+/**
+ * Fake upload (for jQuery FakeUpload plugin)
+ */
+/* line 17, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+a.button {
+  text-decoration: none; }
+
+/* line 21, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+.button {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0.41176rem 0.88235rem;
+  border: 1px solid #cccccc;
+  color: #4d4d4d;
+  background: #f9f8f8;
+  border-radius: 0.17647rem;
+  cursor: pointer !important;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: normal; }
+  /* line 36, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+  .button:active {
+    top: 1px; }
+  /* line 40, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+  .button:focus, .button:active {
+    outline: none; }
+
+/* line 45, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+.button-small {
+  padding: 0.35294rem 0.70588rem;
+  font-size: 0.88235rem;
+  border-radius: 0.17647rem; }
+
+/* line 51, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+.button-large {
+  padding: 0.58824rem 1rem;
+  font-size: 1.11765rem;
+  border-radius: 0.17647rem; }
+
+/* line 57, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+.button-rounded {
+  border-radius: 1em; }
+
+/* line 61, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_buttons.scss */
+.button-full {
+  width: 100% !important; }
+
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+table {
+  width: 100%; }
+
+/* line 13, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+th, td {
+  padding: 0.41176rem;
+  text-align: left; }
+
+/**
+ * Cell alignments
+ */
+/* line 22, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+[colspan] {
+  text-align: center; }
+
+/* line 26, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+[colspan="1"] {
+  text-align: left; }
+
+/* line 30, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+[rowspan] {
+  vertical-align: middle; }
+
+/* line 34, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+[rowspan="1"] {
+  vertical-align: top; }
+
+/**
+ * Bordered tables
+ */
+/* line 43, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+.table-bordered th, .table-bordered td {
+  border: 1px solid black; }
+  /* line 46, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+  .table-bordered th:empty, .table-bordered td:empty {
+    border: none; }
+
+/**
+ * Striped tables
+ */
+/* line 57, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: white; }
+/* line 61, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_tables.scss */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #cdcdcd; }
+
+/* line 7, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_images.scss */
+.img-rounded {
+  border-radius: 0.23529rem; }
+
+/* line 11, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_images.scss */
+.img-circled {
+  border-radius: 100%; }
+
+/* line 1, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_lists.scss */
+.unstyled-list {
+  list-style: none;
+  padding-left: 0; }
+
+/* line 7, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/base/_lists.scss */
+li > ul, li > ol {
+  margin-bottom: 0; }
+
+/* line 9, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+.nav ul, .nav ol {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+  /* line 14, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+  .nav ul > li, .nav ul > li > a, .nav ol > li, .nav ol > li > a {
+    display: inline-block; }
+
+/* line 20, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+.nav-stacked ul > li, .nav-stacked ol > li {
+  display: block; }
+
+/**
+ * Allow to center text
+ */
+/* line 29, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+.nav-banner {
+  text-align: center; }
+
+/**
+ * Make the nav fit the whole space
+ */
+/* line 37, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+.nav-fit ul, .nav-fit ol {
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+  /* line 42, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+  .nav-fit ul > li, .nav-fit ol > li {
+    display: table-cell; }
+    /* line 45, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Maestrooo/components/_nav.scss */
+    .nav-fit ul > li > a, .nav-fit ol > li > a {
+      display: block; }
+
+/**
+ * We are using a placeholder selector here, so that you don't need to couple your markup with a non-semantic
+ * "media" class. And it is does not outputted until it's used!
+ */
+/* line 6, ../sass/screen.scss */
+.container {
+  max-width: 1000px;
+  max-width: 58.82353rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../../../Dropbox/Dossiers partagés/CodeKit Framework/Susy 2/susy/output/support/_clearfix.scss */
+  .container::after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 10, ../sass/screen.scss */
+header[role="banner"] {
+  background: #314151;
+  text-align: center; }
+
+/* line 15, ../sass/screen.scss */
+.logo {
+  font-size: 1.17647rem;
+  color: #ffffff; }
+  /* line 19, ../sass/screen.scss */
+  .logo span {
+    color: #3bafda; }
+
+/* line 24, ../sass/screen.scss */
+.sub-header {
+  padding-top: 2.70588rem;
+  background: #384352;
+  border-top: 1px solid #3f4a5c;
+  color: #9fb7c5;
+  text-align: center; }
+  /* line 31, ../sass/screen.scss */
+  .sub-header .tagline {
+    color: #ffffff; }
+  /* line 35, ../sass/screen.scss */
+  .sub-header p {
+    line-height: 0.82353rem; }
+
+/* line 40, ../sass/screen.scss */
+.tagline, .title {
+  font-family: 'open-sans', 'helvetica neue', 'arial', 'sans-serif';
+  font-size: 1.76471rem;
+  text-align: center; }
+
+/* line 46, ../sass/screen.scss */
+.slim {
+  margin-right: 16.66667%;
+  margin-left: 16.66667%; }
+
+/* line 50, ../sass/screen.scss */
+#why-us, #our-solution {
+  padding: 4.11765rem 0; }
+
+/* line 54, ../sass/screen.scss */
+#why-us {
+  color: #859aa7; }
+  /* line 57, ../sass/screen.scss */
+  #why-us .title {
+    color: #354050; }
+  /* line 61, ../sass/screen.scss */
+  #why-us .blue {
+    color: #3bafda;
+    font-weight: bold; }
+  /* line 66, ../sass/screen.scss */
+  #why-us .red {
+    color: #ed5565;
+    font-weight: bold; }
+
+/* line 72, ../sass/screen.scss */
+#our-solution {
+  background: #384352;
+  color: #9fb7c5; }
+  /* line 76, ../sass/screen.scss */
+  #our-solution .title {
+    color: #ffffff; }
+  /* line 80, ../sass/screen.scss */
+  #our-solution strong {
+    color: #ffffff; }
+  /* line 84, ../sass/screen.scss */
+  #our-solution .do-it {
+    color: #8cc152;
+    font-weight: bold; }
